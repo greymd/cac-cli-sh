@@ -1,4 +1,4 @@
-# cac-cli.sh
+# cac-cli-sh
 Simple CLI client for CloudAtCost
 
 # Preparation
