@@ -1,5 +1,10 @@
 #!/bin/bash
-. ./cac-cli.conf
+# Get the abusolute path of this script
+script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
+
+# Load config file
+. "$script_dir/cac-cli.conf"
+
 CAC_API_DOMAIN='https://panel.cloudatcost.com'
 CAC_API_PARAM='/api/v1'
 CAC_API_URL="${CAC_API_DOMAIN}${CAC_API_PARAM}"
