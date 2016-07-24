@@ -1,5 +1,5 @@
 # cac-cli-sh
-Simple CLI client for CloudAtCost
+Simple CLI client for [CloudAtCost](http://www.cloudatcost.com/)
 
 # Preparation
 
@@ -10,7 +10,7 @@ Please install following commands in advance.
 * `column`
 
 ## Install
-1. Fillin your API key and Login address in `cac-cli.conf`
+* Fillin your API key and Login address in `cac-cli.conf`
 
 ```sh
 $ git clone https://github.com/greymd/cac-cli-sh.git
@@ -25,7 +25,7 @@ CAC_API_KEY='ABCDEFG123456789'
 CAC_LOGIN_ADDR='example@example.com'
 ```
 
-2. Edit your `.bashrc` or `.zshrc` to import `cac-cli.conf`
+* Edit your `.bashrc` or `.zshrc` to import `cac-cli.conf`
 
 ```sh
 $ echo ". ~/reps/cac-cli-sh/cac-cli.sh" >> ~/.zshrc
